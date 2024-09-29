@@ -2,17 +2,15 @@
     display:grid;
     grid-template-columns: 30vw auto;
     gap:1rem;
+    list-style-type: none;
     
 }
 a{
     text-decoration: none;
     color: Black;
-    
-    
 }
 
 #products aside, #products_container{
-    
     background: #e5e5e5;
     border: 1px solid #ddd;
     border-radius: 5px;
