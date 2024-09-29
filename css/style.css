@@ -5,12 +5,26 @@
     
     
 }
-ul {
+ul{
   list-style-type: none;
 }
 a{
     text-decoration: none;
     color: Black;
+}
+a:hover{
+  background-color: #0056b3;
+    transform: scale(1.05);
+}
+a: focus {
+    background-color: red;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+a:active {
+    background-color: green;
+    transform: scale(0.95);
 }
 
 #products aside, #products_container{
@@ -44,4 +58,19 @@ a{
 .product{
     border:1px solid #ccc;
     padding:1rem;
+}
+
+
+@media only screen and (min-width: 653px) {
+
+  products aside, #products_container{
+    background: #e5e5e5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 20%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
 }
