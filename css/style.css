@@ -1,18 +1,39 @@
-/* Add all your styles here */
 #products{
     display:grid;
     grid-template-columns: 30vw auto;
     gap:1rem;
+    
+}
+a{
+    text-decoration: none;
+    color: Black;
+    
+    
 }
 
 #products aside, #products_container{
-    border:1px solid red;
+    
+    background: #e5e5e5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
 #products_container{
     display:grid;
     grid-template-columns: auto auto auto;
     gap:1rem;
+    
+    background: #e5e5e5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
 #products_container img{
