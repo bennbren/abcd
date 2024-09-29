@@ -2,8 +2,11 @@
     display:grid;
     grid-template-columns: 30vw auto;
     gap:1rem;
-    list-style-type: none;
     
+    
+}
+ul {
+  list-style-type: none;
 }
 a{
     text-decoration: none;
